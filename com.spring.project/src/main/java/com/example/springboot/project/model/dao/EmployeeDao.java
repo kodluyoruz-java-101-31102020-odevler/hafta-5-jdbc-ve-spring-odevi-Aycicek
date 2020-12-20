@@ -1,0 +1,9 @@
+package com.example.springboot.project.model.dao;
+
+import java.util.List;
+
+public interface EmployeeDao {
+	
+	public List<String> getNames();
+
+}
